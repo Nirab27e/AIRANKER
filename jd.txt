@@ -1,0 +1,3 @@
+We are looking for a Machine Learning Engineer with experience in Python, NLP, and deep learning.
+The ideal candidate should have hands-on knowledge of libraries like TensorFlow, PyTorch, and SpaCy.
+Experience with Flask or FastAPI is a plus. Good understanding of data preprocessing, model deployment, and MLOps.

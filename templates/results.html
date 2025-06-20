@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ranked Resumes</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    
+</head>
+<body>
+    <h1>Resume Ranking Results</h1>
+    <table>
+        <tr>
+            <th>File name</th>
+            <th>Score</th>
+        </tr>
+        {% for file, score in ranked %}
+        <tr>
+            <td>{{ file }}</td>
+            <td>{{ "%.4f"|format(score) }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <h2 style="text-align:center; margin-top: 40px; color: #333;">Score Distribution</h2>
+
+    <img src="{{ url_for('static', filename='scores_plot.png') }}" alt="Score Plot" style="max-width: 500px; margin-top: 20px;">
+
+    <br>
+    <a href="/">← Back to Upload</a>
+</body>
+</html>

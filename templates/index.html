@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Resume Ranker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1>AI POWERED RESUME RANKER</h1>
+    <form action="/rank" method="post" enctype="multipart/form-data">
+    <h2>  <label>Upload Resumes:</label>
+        <input type="file" name="resumes" multiple required>
+
+        <label>Job Description:</label>
+        <textarea name="job_description" required></textarea>
+
+
+        <button type="submit">Rank</button> <h2>
+    </form>
+    <h4>Note:Please upload pdf files only<h4>
+        <h5>This is a AI-Powered Resume ranker and the final score will be displayed in cosine value, if 
+            the value is between 0.06 to 1 your resume is perfect if it is less than 0.06 you need to improve your resume<h4>
+</div>
+           
+</body>
+</html>
