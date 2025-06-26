@@ -12,5 +12,7 @@ This is an **AI-powered resume ranking web app** built using **NLP** and **Flask
 - Simple, intuitive **Flask-based web interface**
 
 ---
+![Screenshot (369)](https://github.com/user-attachments/assets/ba4c8e47-e5f3-4906-9ab5-a1bed27d8a6f)
+![Screenshot (366)](https://github.com/user-attachments/assets/e4442d2c-a4bf-4f2c-b89e-889e9738b3de)
 
 
